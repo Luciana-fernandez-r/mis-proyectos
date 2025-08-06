@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Luciana Fernández</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="icon" href="suitcase.png">
+</head>
+
+<body class="pt-5">
+
+ <!--navbar-->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Luciana Fernández</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#acerca">Acerca de mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--tarjeta de presentación-->
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="bg-dark rounded-circle overflow-hidden ratio ratio-1x1">
+          <img src="fotoportfolio.jpg" 
+              alt="Avatar" 
+              class="img-fluid object-fit-cover p-3">
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center text-center mt-3">
+      <div class="col-12">
+        <h1 class="fw-light">LUCIANA FERNÁNDEZ</h1>
+        <p class="text-primary">Desarrolladora web</p>
+      </div>
+    </div>
+  </div>
+
+  <!--sección portfolio-->
+  <section id="portfolio" class="container my-5 pt-5">
+    <h2 class="mb-4">Mis proyectos</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      
+      <div class="col">
+        <div class="card h-100">
+          <img src="colorgame.png" class="card-img-top" alt="Sitio 1">
+          <div class="card-body">
+            <h5 class="card-title">Color Game</h5>
+            <p class="card-text">Juego web simple e intuitivo en el que el usuario ve un código RGB (por ejemplo, rgb(255, 99, 71)) 
+              y debe adivinar a cuál de los cuadrados de color corresponde. Al hacer clic en una opción: 
+              <ul>
+              <li>Si acierta, todos los cuadros cambian al color correcto y aparece un mensaje de felicitación.</li>
+              <li>Si se equivoca, el cuadro desaparece y puede seguir intentando. </li>
+              </ul>
+              La interfaz es limpia, colorida y responsive, pensada para brindar una experiencia lúdica y visualmente atractiva. 
+              Ideal para quienes quieran poner a prueba su percepción del color de forma rápida y entretenida.
+            </p>
+          </div>
+          <div class="card-footer text-center">
+            <a href="https://glistening-cajeta-a2360f.netlify.app/" class="btn btn-primary" target="_blank">Ver sitio</a>
+          </div>
+        </div>
+      </div>
+  
+      
+      <div class="col">
+        <div class="card h-100">
+          <img src="todolist.png" class="card-img-top" alt="Sitio 2">
+          <div class="card-body">
+            <h5 class="card-title">To Do List</h5>
+            <p class="card-text">Aplicación web sencilla y funcional para organizar tareas diarias. El usuario puede:
+              <ul>
+                <li>Agregar tareas mediante un campo de texto</li>
+                <li>Marcar como completadas haciendo clic sobre ellas (cambia el estilo para indicar que está hecha).</li>
+                <li>Eliminar tareas individualmente con un botón de borrar.</li>
+              </ul>
+              El diseño es minimalista y responsive, pensado para que cualquier persona pueda anotar y gestionar sus pendientes de forma rápida y clara, desde cualquier dispositivo.
+            </p>
+          </div>
+          <div class="card-footer text-center">
+            <a href="https://reliable-malabi-04df6b.netlify.app/" class="btn btn-primary" target="_blank">Ver sitio</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <img src="eventflow.png" class="card-img-top" alt="Sitio 3">
+          <div class="card-body">
+            <h5 class="card-title">EventFlow</h5>
+            <p class="card-text">Aplicación web para gestionar eventos personales de forma simple y ordenada. El usuario puede:
+              <ul>
+                <li>Agregar eventos con título, fecha y hora.</li>
+
+                <li> Visualizar los eventos en una lista clara y cronológica.</li>
+
+                <li>Eliminar eventos fácilmente cuando ya no son necesarios.</li>
+              </ul>
+              Cuenta con un diseño limpio y amigable, pensado para facilitar la planificación diaria. Ideal para quienes buscan una herramienta rápida y accesible para organizar sus actividades.
+            </p>
+          </div>
+          <div class="card-footer text-center">
+            <a href="https://bright-tiramisu-c8aa60.netlify.app/" class="btn btn-primary" target="_blank">Ver sitio</a>
+          </div>
+        </div>
+      </div>
+  
+  
+    </div>
+  </section>
+
+  <br>
+
+  <!--sección acerca-->
+  <section id="acerca" class="container my-5 pt-5">
+    <h2>Acerca de mí</h2>
+    <p>Soy desarrolladora web y me apasiona crear sitios funcionales, limpios y fáciles de navegar. 
+      Disfruto resolver problemas, aprender nuevas tecnologías y trabajar en proyectos que combinan 
+      diseño y código. Me especializo en HTML, CSS, JavaScript y herramientas modernas como Bootstrap. 
+      Siempre busco mejorar y seguir creciendo en este camino digital.</p>
+  </section>
+
+  <br>
+
+  <!--sección contacto-->
+  <section id="contacto" class="container my-5 pt-5">
+    <h2>Contacto</h2>
+    <form action="https://formspree.io/f/xqaqqzje" method="POST">
+      <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="nombre" name="nombre" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Correo electrónico</label>
+        <input type="email" class="form-control" id="email" name="email" required>
+      </div>
+      <div class="mb-3">
+        <label for="mensaje" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="mensaje" name="mensaje" rows="5" required></textarea>
+      </div>
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="#">
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+  </section>
+  
+
+  <!--sección footer-->
+  <footer class="bg-dark text-white py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p>&copy; Luciana Fernández - 2025</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <a href="https://www.linkedin.com/in/luciana-agustina-fern%C3%A1ndez-rodriguez-/" class="text-white me-3">LinkedIn</a>
+          <a href="https://www.instagram.com/lightiana_/?hl=es" class="text-white me-3">Instagram</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
+
